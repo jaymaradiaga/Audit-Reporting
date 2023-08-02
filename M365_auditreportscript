@@ -1,0 +1,9 @@
+# Install the SPO module
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+
+# Import the SharePoint Online module
+Import-Module Microsoft.Online.SharePoint.PowerShell
+
+# Connect to the SPO administration ednpoint
+Connect-SPOService '
+	-URL "https://domain-admin.sharepoint.com"
